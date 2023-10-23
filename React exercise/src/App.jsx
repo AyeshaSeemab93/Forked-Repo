@@ -44,13 +44,14 @@ const Content = (props) =>{
       <Part part = {props.part1} exercise = {props.exercises1}/>
       <Part part = {props.part2} exercise = {props.exercises2}/>
       <Part part = {props.part3} exercise = {props.exercises3}/>
+      <Part part = {props.part4} exercise = {props.exercises4}/>
     </div>
   )
 }
 const Total = (props) =>{
   return(
     <div>
-      <p>Number of exercises {props.exercises1 + props.exercises2 + props.exercises3}</p> 
+      <p>Number of exercises {props.exercises1 + props.exercises2 + props.exercises3+ props.exercises4}</p> 
     </div>
   )
 }
